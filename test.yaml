@@ -33,9 +33,7 @@ blueprint:
       name: Lux Sensor
       selector:
         entity:
-          filter:
-            device_class: illuminance_lux
-            device_class: illuminance_lux
+
     lux_level_bellow:
       name: Max Lux
       description: Max lux, above that the light will not turn on
