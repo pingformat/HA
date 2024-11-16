@@ -34,9 +34,9 @@ blueprint:
       selector:
         entity:
           filter:
-            - device_class: illuminance_lux
+            - device_class: illuminance
               domain: numeric.sensor
-            - device_class: illuminance_lux
+            - device_class: illuminance
               domain: numeric.sensor
     lux_level_bellow:
       name: Max Lux
