@@ -31,9 +31,16 @@ blueprint:
           unit_of_measurement: seconds
     lux_entity:
       name: Lux Sensor
+      selector:
+        entity:
+          filter:
+            - device_class: illuminance_lux
+              domain: sensor
+            - device_class: illuminance_lux
+              domain: sensor
     lux_level_bellow:
       name: Max Lux
-      description: Max lux, rrrrrrrrrrrrrrrrrrr
+      description: Max lux, above that the light will not turn on
       default: 5
       selector:
         number:
@@ -41,6 +48,8 @@ blueprint:
           max: 5000
           unit_of_measurement: lx
 
+# If motion is detected within the delay,
+# we restart the script.
 mode: restart
 max_exceeded: silent
 
