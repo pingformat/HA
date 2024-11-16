@@ -3,7 +3,7 @@ blueprint:
   description: Turn on a light when motion is detected is lux is bellow n.
   domain: automation
   source_url: https://raw.githubusercontent.com/pingformat/HA/refs/heads/main/test.yaml
-  author: Home Assistant
+  author: Pingformat
   input:
     motion_entity:
       name: Motion Sensor
