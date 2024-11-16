@@ -33,7 +33,7 @@ blueprint:
       name: Lux Sensor
     lux_level_bellow:
       name: Max Lux
-      description: Max lux, above that the light will not turn on
+      description: Max lux, rrrrrrrrrrrrrrrrrrr
       default: 5
       selector:
         number:
