@@ -35,9 +35,9 @@ blueprint:
         entity:
           filter:
             - device_class: illuminance_lux
-              domain: numeric_sensor
+              domain: sensor
             - device_class: illuminance_lux
-              domain: numeric_sensor
+              domain: sensor
     lux_level_bellow:
       name: Max Lux
       description: Max lux, above that the light will not turn on
