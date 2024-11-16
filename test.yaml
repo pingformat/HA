@@ -2,7 +2,7 @@ blueprint:
   name: Motion-activated Light with lux
   description: Turn on a light when motion is detected is lux is bellow n.
   domain: automation
-  source_url: 
+  source_url: https://raw.githubusercontent.com/pingformat/HA/refs/heads/main/test.yaml
   author: Home Assistant
   input:
     motion_entity:
