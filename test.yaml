@@ -37,7 +37,7 @@ blueprint:
             - device_class: illuminance_lux
     lux_level_bellow:
       name: Max Lux
-      description: Max lux, above that the light will not turn on
+      description: 111
       default: 5
       selector:
         number:
