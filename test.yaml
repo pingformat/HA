@@ -31,9 +31,6 @@ blueprint:
           unit_of_measurement: seconds
     lux_entity:
       name: Lux Sensor
-      selector:
-        entity:
-
     lux_level_bellow:
       name: Max Lux
       description: Max lux, above that the light will not turn on
